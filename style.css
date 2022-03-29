@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.gridContainer {
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  outline: 0.2em;
+  outline-color: rgb(36, 36, 36);
+  outline-style: solid;
+}
+
+.box {
+  outline: 0.1em;
+  outline-color: rgb(95, 95, 95);
+  outline-style: solid;
+}
