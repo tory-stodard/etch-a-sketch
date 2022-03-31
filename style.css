@@ -1,13 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  color: #f05454;
+  font-size: 3em;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.ui {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+button {
+  background-color: #30475e;
+  color: #f5f5f5;
+  border-color: #30475e;
+  padding: 1em;
+  width: 18em;
+  border-style: solid;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #f5f5f5;
+  color: #30475e;
+}
+
+.uiLeft .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#colorPicker {
+  visibility: hidden;
+}
+
+label {
+  background-color: #f05454;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 2px;
+  color: #f5f5f5;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.uiLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  margin-left: 20em;
+}
+
+.uiRight {
+  display: flex;
+  margin-right: 20em;
+}
+
 .grid {
   display: grid;
   outline-style: solid;
+  outline-color: #121212;
   outline-width: 0.2em;
   height: 500px;
   width: 500px;
-}
-
-.pixel {
-  /* outline-style: solid;
-  outline-width: 0.1em; */
-  /* background-color: rgb(73, 185, 185); */
 }
